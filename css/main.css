@@ -1,1 +1,82 @@
 /* TODO: insert styles here */
+body {
+text-align: center;
+}
+h1 {
+  font-family: Lato Black;
+  color: #262626;
+  text-align: center;
+}
+/*.content {
+  text-align: center;
+}*/
+h2 {
+  font-family: Roboto Condensed Bold;
+  color: #000000;
+}
+p {
+  color: #6e6e6e;
+  font-family: Roboto Light;
+}
+ h2 {
+   color: #000000;
+ }
+.local {
+  border: 1px solid #4757FF;
+  display: inline-block;
+  padding: 4px;
+  margin-right: 20px;
+  text-align: left;
+}
+.blue {
+  background-color: #4757FF;
+}
+.red {
+  background-color: #FB4E32;
+}
+h2.local {
+  background-color: #4757FF;
+}
+h3.local {
+  color: #4757FF;
+}
+.remote {
+  border: 1px solid #FB4E32;
+  display: inline-block;
+  padding: 4px;
+  text-align: left;
+  float: right;
+  margin: 0;
+}
+h2.remote {
+  background-color: #FB4E32;
+}
+h3.remote {
+  color: #FB4E32;
+}
+/*.local {
+  color: #4757ff;
+}
+#local {
+
+}
+#remote {
+
+}
+h3#remote {
+  color: #FB4E32;
+}
+h3#local {
+  font-family: Roboto Mono;
+  color: #4757FF;
+
+}
+.command {
+  border: 1px solid
+
+}
+p {
+  font-family: Roboto Light;
+  color: #6e6e6e;
+}
+*/
