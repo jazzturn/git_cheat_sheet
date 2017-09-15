@@ -12,14 +12,19 @@ h1 {
 }*/
 h2 {
   font-family: Roboto Condensed Bold;
-  color: #000000;
+  color: #ffffff;
+  padding: 0;
 }
 p {
   color: #6e6e6e;
   font-family: Roboto Light;
+  padding: 0;
 }
- h2 {
-   color: #000000;
+ .content {
+   margin: 0 auto;
+   width: 90%;
+   margin-top: 60px;
+   padding: 0;
  }
 .local {
   border: 1px solid #4757FF;
@@ -27,17 +32,22 @@ p {
   padding: 4px;
   margin-right: 20px;
   text-align: left;
+  float: left;
 }
-.blue {
+/*.blue {
   background-color: #4757FF;
 }
 .red {
   background-color: #FB4E32;
-}
-h2.local {
+}*/
+.local h2 {
   background-color: #4757FF;
+  width: 508px;
+  height: 50px;
+  padding: 0;
+  margin-top: 0;
 }
-h3.local {
+.local h3 {
   color: #4757FF;
 }
 .remote {
@@ -46,12 +56,15 @@ h3.local {
   padding: 4px;
   text-align: left;
   float: right;
-  margin: 0;
 }
-h2.remote {
+.remote h2 {
   background-color: #FB4E32;
+  margin-top: 0;
+  padding: 0;
+  width: 540px;
+  height: 50px;
 }
-h3.remote {
+.remote h3 {
   color: #FB4E32;
 }
 /*.local {
