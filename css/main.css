@@ -29,7 +29,7 @@ p {
 .local {
   border: 1px solid #4757FF;
   display: inline-block;
-  padding: 4px;
+  padding: 0;
   margin-right: 20px;
   text-align: left;
   float: left;
@@ -53,7 +53,7 @@ p {
 .remote {
   border: 1px solid #FB4E32;
   display: inline-block;
-  padding: 4px;
+  padding: 0;
   text-align: left;
   float: right;
 }
